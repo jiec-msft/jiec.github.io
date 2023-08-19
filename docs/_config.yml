@@ -28,7 +28,8 @@ twitter_username: 'jackcha43958869'
 github_username:  jiec-msft
 
 # Build settings
-theme: minima
+#theme: minima
+theme:  minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
