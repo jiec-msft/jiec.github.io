@@ -22,14 +22,15 @@ title: Mason's Blog
 email: jiec@microsoft.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal knowledge store.
-baseurl: "jiec.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/jiec.github.io" # the subpath of your site, e.g. /blog
 url: "https://jiec-msft.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 'jackcha43958869'
 github_username:  jiec-msft
 
 # Build settings
 #theme: minima
-theme:  minimal-mistakes-jekyll
+# theme:  minimal-mistakes-jekyll
+theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
 
