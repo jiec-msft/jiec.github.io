@@ -8,7 +8,7 @@ categories: Maven
 # Maven 依赖管理
 ## 依赖的类型
 1. 直接依赖
-   - ```
+   - ```xml
      <dependency>
        <groupId>junit</groupId>
        <artifactId>junit</artifactId>
@@ -26,7 +26,7 @@ categories: Maven
    - 有这种scope的依赖，会被加载到各种build task的classpath里面去。
    - 同时，这个会把这个scope加到它的上游依赖。
    - 而且，这个scope的依赖具有传递性。假设B依赖A的scope是compile，C依赖B的scope是compile，那么C依赖A的scope也是compile。
-   - ```
+   - ```xml
      <dependency>
        <groupId>commons-lang</groupId>
        <artifactId>commons-lang</artifactId>
@@ -37,7 +37,7 @@ categories: Maven
    - 用来标记某种依赖不需要带到runtime, runtime提供的。 
    - 例如Lombok，只是编译的时候需要用一下，用来生成代码的，runtime根本不需要这个依赖。
    - 又例如当我们要部署一个web application到一个container中，这个container可能已经包含了一些依赖包。例如Servlet API.
-     - ```
+     - ```xml
        <dependency>
            <groupId>javax.servlet</groupId>
            <artifactId>javax.servlet-api</artifactId>
@@ -49,7 +49,7 @@ categories: Maven
 3. Runtime
    - 用来标记这个依赖在编译/测试阶段都用不到，只在运行的时候需要用一下。
    - 例如JDBC driver
-   - ```
+   - ```xml
      <dependency>
          <groupId>mysql</groupId>
          <artifactId>mysql-connector-java</artifactId>
@@ -62,7 +62,7 @@ categories: Maven
 5. System
    - 已经**Deprecated**
    - 和Provided很像，但是要求指定一个路劲
-   - ```
+   - ```xml
      <dependency>
          <groupId>com.baeldung</groupId>
          <artifactId>custom-dependency</artifactId>
@@ -74,7 +74,7 @@ categories: Maven
 6. Import
    - 仅用于type=pom
    - 顾名思义，就是把这个pom文件全部给加来进来，可以用复制-粘贴来理解。
-   - ```
+   - ```xml
      <dependency>
          <groupId>com.baeldung</groupId>
          <artifactId>custom-project</artifactId>
@@ -83,6 +83,8 @@ categories: Maven
          <scope>import</scope>
      </dependency>
      ```
+
+
 ## scope的传递性
 - `provided` and `test` 不会被包括在main project中。大白话就是在最终的jar里面，不会包含进去。
 - For the compile scope, all dependencies with runtime scope will be pulled in with the runtime scope in the project, and all dependencies with the compile scope will be pulled in with the compile scope in the project.
