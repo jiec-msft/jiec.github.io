@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Maven dependency scopes"
+date:   2023-08-19 16:21:08 +0800
+categories: Maven
+---
+
 # Maven 依赖管理
 ## 依赖的类型
 1. 直接依赖
