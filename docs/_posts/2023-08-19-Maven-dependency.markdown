@@ -91,3 +91,21 @@ categories: Maven
 - For the provided scope, both runtime and compile scope dependencies will be pulled in with the provided scope in the project.
 - For the test scope, both runtime and compile scope transitive dependencies will be pulled in with the test scope in the project.
 - For the runtime scope, both runtime and compile scope transitive dependencies will be pulled in with the runtime scope in the project.
+
+## 一个特殊的现象
+当我照常给spring-boot应用打包jar的时候，lombok我明明填的是provided，但是在最后的jar包里面, 解压后，在BOOT-INF/lib里面找到了lombok的jar文件。 这应该是`spring-boot-maven-plugin`的问题，还需要额外去exclude
+```
+<plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    <configuration>
+        <skip>${skip.boot.build}</skip>
+        <excludes>
+            <exclude>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+            </exclude>
+        </excludes>
+    </configuration>
+</plugin>
+```
