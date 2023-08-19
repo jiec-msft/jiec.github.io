@@ -30,7 +30,8 @@ github_username:  jiec-msft
 # Build settings
 #theme: minima
 # theme:  minimal-mistakes-jekyll
-theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 plugins:
   - jekyll-feed
 
