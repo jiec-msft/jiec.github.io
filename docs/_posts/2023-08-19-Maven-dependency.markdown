@@ -61,7 +61,7 @@ categories: Maven
    - 只给Test task用，写到这个classpath里面
 5. System
    - 已经**Deprecated**
-   - 和Provided很像，但是要求指定一个路劲
+   - 和Provided很像，但是要求指定一个路径
    - ```xml
      <dependency>
          <groupId>com.baeldung</groupId>
