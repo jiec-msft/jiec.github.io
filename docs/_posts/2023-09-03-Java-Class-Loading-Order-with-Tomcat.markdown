@@ -71,11 +71,50 @@ WEB-INF/
 >That means if a webapp contains any JavaEE classes (javax.*), then it will be ignored by tomcat.
 >For each loader, the classes are just loaded by the JVM in the order whenever they needs to be imported/executed and are not loaded yet.
 
+## 在k8s容器中
+一个java类到底从哪个jar包里加载出来，取决于container底层VM的文件系统（甚至某个版本）
+
+
+## Java项目的依赖冲突
+用`xwork-core` 和 `struts2-core`作为例子。这两个包是相互冲突的，因为含有一些package名字，class名字完全相同的类/接口。但是这些类/接口不是兼容的，有可能A在`struts2-core`里面是个接口，但是在`xwork-core`里面是个具体的类。那么应用起来的时候，就和这个类的加载顺序很有关系了， 顺序错了，可能就起不来。
+
+同时，一个项目里面，就不应该用这种相互冲突的依赖，基本是一个替换的关系，得要彻底替换掉。
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.amason</groupId>
+    <artifactId>mason-test-pom</artifactId>
+    <version>1.0</version>
+    <name>mason-test-pom</name>
+    <description>mason-test-pom</description>
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.struts.xwork/xwork-core -->
+        <dependency>
+            <groupId>org.apache.struts.xwork</groupId>
+            <artifactId>xwork-core</artifactId>
+            <version>2.3.37</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-core</artifactId>
+            <version>2.5.30</version>
+        </dependency>
+    </dependencies>
+
+</project>
+```
 
 ## 链接
 - [Order of loading jar files from lib directory](https://stackoverflow.com/questions/5474765/order-of-loading-jar-files-from-lib-directory)
 
 
-## 在k8s容器中
-一个java类到底从哪个jar包里加载出来，取决于container底层VM的文件系统（甚至某个版本）
 
