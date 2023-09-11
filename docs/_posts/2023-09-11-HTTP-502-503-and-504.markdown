@@ -16,22 +16,22 @@ There are many other less well known [status codes in the 400 and 500 range](htt
 
 Some of the common 500 error messages that websites may encounter are 502, 503, and 504, which are all related to the website server being unable to fill a request that should be valid. These codes provide both the user and the website owner with additional information as to why a page is not loading. Websites can utilize logs and alerts to keep track of how often these errors occur and be notified when errors are occurring so that they can be resolved if needed.
 
-502 Bad Gateway
+## 502 Bad Gateway
 A 502 error means that a website server that is serving as a reverse proxy for the website origin server (for example, a CDN PoP) did not receive a valid response from the origin server. This may be because the origin server is experiencing issues, there is an invalid or incorrect DNS name, or because a firewall on the origin server has blocked the reverse proxy server request.
 
 This may also occur when requests at the origin server are taking several minutes to complete and a caching tool such as Varnish Cache has been instructed to timeout after a set number of seconds. Varnish Cache has a default timeout of 60 seconds, which Section recommends keeping for security and alerting reasons.
 
-503 Service Unavailable
+## 503 Service Unavailable
 The 503 service unavailable message means that the website origin server is not available and is usually a temporary state. This error could be triggered because something running on the website server side has crashed or your site is purposefully down for maintenance. This error is also commonly served when a site has more traffic than it can handle - a problem with poor website scalability. The famous Twitter “Fail Whale” which was often triggered in the early days of the social media site is one example of a 503 triggered due to excess traffic.
 
 To avoid serving 503 errors due to an overload of visitors, we recommend using a Content Delivery Network and caching tool so that more of your requests can be served from the CDN and cache.
 
 fail whale
 
-504 Gateway Timeout
+## 504 Gateway Timeout
 Similar to the 502 error, the 504 Gateway Timeout error occurs if the server that is acting as a proxy for the website origin server did not receive a response from the website origin server within a set time period. This may indicate an issue with the DNS host or hosting company, or with the connection or configuration between the reverse proxy servers and the website origin server.
 
-Troubleshooting 500 errors
+## Troubleshooting 500 errors
 502 and 504 errors are related to a bad gateway, meaning that while the reverse proxy server is operational, something it needs to collect from the origin server is not working, or the connection between the reverse proxy server and the origin server is broken. To troubleshoot this issue, websites should check that their origin server and all the servers it needs to access are running correctly, and then check the configuration between the origin server and reverse proxy server (such as the CDN PoP or locally installed Varnish Cache server). You should also check that your firewall is not accidentally blocking legitimate traffic, your DNS name is set up correctly, and your origin hosting provider is not down.
 
 503 errors are often expected when your website is going through downtime in order to make updates or changes. They may also be triggered by a large influx of traffic to your website. If your website does not scale well, we suggest exploring utilizing a CDN such as Section’s and/or a caching reverse proxy such as Varnish Cache. To learn more please contact us or get started for free to explore our features free for 2 weeks.
@@ -42,17 +42,17 @@ From [HTTP 状态码详解与选用](https://mp.weixin.qq.com/s?__biz=MzA4MjkxMz
 
 # Another explaination
 
-简单的说：
-502
-灾难事件： 在某个连着两天的早晨9：00 左右，我们的服务器不幸挂掉了，影响了一批用户上班（早上着急上班骑不了自行车了，/捂脸）。当时打开我们的app和公司内部系统，报错都是502。
-问题原因：服务器冷不丁坏掉了
-解释：出现502错误，通常意味着一两个机器已经不正确，简单点说，就是机器挂掉了。理论点儿说，nginx执行请求的时候，却收到了上游服务器的无效响应
-503
-灾难事件：临时的服务器维护/过载，服务器当前无法处理请求，报503
-问题原因：请求用户量太多，服务器为了保护自己不挂掉，机智的拒绝某些用户的访问，这些用户就会收到503这个错误
-解决办法： 等一会儿仔访问该网站或者尝试强刷新页面，问题一般就能够解决了。
-504
-事件描述：dns查询过程超时，返回504；摸不着头脑，不管访问什么网站，都报504这个错误
-问题原因：nginx或者后端配置不正确
-解决办法：上网查nginx或后端的配置参数是否正确或者合理
-解释： 实际上504很少会遇到，通常这个错误是由于nginx配置不当引起的，比如你将你的nginx的超时时间设置为300，那么如果此次请求的响应时间超过了300，你就会看到504这个报错。明白了吧。官方说法：请求超时
+
+- 502
+  - 灾难事件： 在某个连着两天的早晨9：00 左右，我们的服务器不幸挂掉了，影响了一批用户上班（早上着急上班骑不了自行车了，/捂脸）。当时打开我们的app和公司内部系统，报错都是502。
+  - 问题原因：服务器冷不丁坏掉了
+  - 解释：出现502错误，通常意味着一两个机器已经不正确，简单点说，就是机器挂掉了。理论点儿说，nginx执行请求的时候，却收到了上游服务器的无效响应
+- 503
+  - 灾难事件：临时的服务器维护/过载，服务器当前无法处理请求，报503
+  - 问题原因：请求用户量太多，服务器为了保护自己不挂掉，机智的拒绝某些用户的访问，这些用户就会收到503这个错误
+  - 解决办法： 等一会儿仔访问该网站或者尝试强刷新页面，问题一般就能够解决了。
+- 504
+  - 事件描述：dns查询过程超时，返回504；摸不着头脑，不管访问什么网站，都报504这个错误
+  - 问题原因：nginx或者后端配置不正确
+  - 解决办法：上网查nginx或后端的配置参数是否正确或者合理
+  - 解释： 实际上504很少会遇到，通常这个错误是由于nginx配置不当引起的，比如你将你的nginx的超时时间设置为300，那么如果此次请求的响应时间超过了300，你就会看到504这个报错。明白了吧。官方说法：请求超时
