@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "7cfe8e1410c7f909",
+    "type": "split",
+    "children": [
+      {
+        "id": "77938c2e7d8090ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e523ae61e8b1e12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/_posts/2023-08-19-welcome-to-jekyll.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2f95b04f46b3347c",
+    "type": "split",
+    "children": [
+      {
+        "id": "93a268390077d33f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a345809608408d16",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "698e18be252c8cfc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "29502847cd74d9c4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 489.5
+  },
+  "right": {
+    "id": "19ed718706baeef9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b83c54bbf299e156",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ecebe35e90d0e348",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/_posts/2023-08-19-welcome-to-jekyll.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "92633d09597b135d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/_posts/2023-08-19-welcome-to-jekyll.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d15ec1a8fb28e25a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1434665d6076e7e9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/_posts/2023-08-19-welcome-to-jekyll.md"
+              }
+            }
+          },
+          {
+            "id": "327df89bb263960e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 796.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a345809608408d16",
+  "lastOpenFiles": [
+    "README.md",
+    "2023-09-23.md",
+    "Untitled.canvas",
+    "docs/_posts/2023-08-26-annoying-tailing-percent-sign-in-oh-my-zsh.md",
+    "docs/_posts/2023-08-21-Reading-goals.md",
+    "docs/_posts/2023-08-19-welcome-to-jekyll.md",
+    "docs/_posts/2023-08-19-Maven-dependency.md"
+  ]
+}
