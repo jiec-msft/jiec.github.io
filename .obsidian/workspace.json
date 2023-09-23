@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-09-24 Jersey.md",
+                "file": "2023-09-24-Eureka-clients.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-09-24 Jersey.md",
+                "file": "2023-09-24-Eureka-clients.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-09-24 Jersey.md",
+                "file": "2023-09-24-Eureka-clients.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-09-24 Jersey.md"
+                "file": "2023-09-24-Eureka-clients.md"
               }
             }
           },
@@ -167,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "860e02727e718a22",
+  "active": "327df89bb263960e",
   "lastOpenFiles": [
     "docs/_posts/2023-09-23-Purpose-of FilterChain.doFilter.md",
-    "2023-09-24 Jersey.md",
+    "2023-09-24-Eureka-clients.md",
     "docs/_posts/2023-09-23-Spring@bean-annotation-for-paramerized-method.md",
     "docs/_posts/2023-09-23-Spring-boot-and-spring-cloud-that-children-can-understand.md",
     "docs/_posts/2023-09-23-Primary-annotation-in-spring-boot-application.md",
