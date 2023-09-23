@@ -9,10 +9,10 @@ From: https://ellsom1945.github.io/blog/springboot02.html
 
 ```Java
 /**
-    * 声明队列交换机等
-    * @param connectionFactory
-    * @return
-    */
+ * 声明队列交换机等
+ * @param connectionFactory
+ * @return
+ */
 @Bean
 public RabbitAdmin rabbitAdmin(ConnectionFactory connectionFactory) {
     System.out.println(String.format("-----------getRabbitAdmin:%s", connectionFactory.hashCode()));
