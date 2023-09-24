@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/_posts/2023-09-24-Eureka-clients.md",
+                "file": "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/_posts/2023-09-24-Eureka-clients.md",
+                "file": "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/_posts/2023-09-24-Eureka-clients.md",
+                "file": "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/_posts/2023-09-24-Eureka-clients.md"
+                "file": "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md"
               }
             }
           },
@@ -181,8 +181,8 @@
   },
   "active": "a345809608408d16",
   "lastOpenFiles": [
-    "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
     "docs/_posts/2023-09-24-Eureka-clients.md",
+    "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
     "docs/_posts/2023-09-23-Purpose-of FilterChain.doFilter.md",
     "docs/_posts/2023-09-23-Spring@bean-annotation-for-paramerized-method.md",
     "docs/_posts/2023-09-23-Spring-boot-and-spring-cloud-that-children-can-understand.md",
