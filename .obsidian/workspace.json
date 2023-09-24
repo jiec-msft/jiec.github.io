@@ -54,9 +54,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "90241a04dd4451c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md",
+                "file": "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md",
+                "file": "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md"
+                "file": "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md"
               }
             }
           },
@@ -191,10 +203,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3dd478f747f1f8af",
+  "active": "90241a04dd4451c4",
   "lastOpenFiles": [
-    "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
     "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md",
+    "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
+    "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
     "docs/_posts/2023-09-24-Eureka-clients.md",
     "docs/_posts/2023-09-23-Spring@bean-annotation-for-paramerized-method.md",
     "docs/_posts/2023-09-23-Spring-boot-and-spring-cloud-that-children-can-understand.md",
@@ -218,7 +231,6 @@
     "docs/_posts/2023-08-19-welcome-to-jekyll.md",
     "README.md",
     "2023-09-23.md",
-    "Untitled.canvas",
-    "docs/_posts/2023-08-26-annoying-tailing-percent-sign-in-oh-my-zsh.md"
+    "Untitled.canvas"
   ]
 }
