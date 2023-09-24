@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Eureka clients"
+date:   2023-09-24 15:49:00 +0800
+categories: Spring
+---
+
 What's the purpose of "org.springframework.cloud.netflix.eureka.CloudEurekaClient"?
 
 
