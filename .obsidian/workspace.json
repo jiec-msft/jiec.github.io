@@ -71,9 +71,11 @@
             "id": "3265d7b75fd1563e",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.14"
+                "file": "docs/_posts/2023-09-26-Nginx-HTTP-499-status-code.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -144,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
+                "file": "docs/_posts/2023-09-26-Nginx-HTTP-499-status-code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
+                "file": "docs/_posts/2023-09-26-Nginx-HTTP-499-status-code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md"
+                "file": "docs/_posts/2023-09-26-Nginx-HTTP-499-status-code.md"
               }
             }
           },
@@ -213,7 +215,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3265d7b75fd1563e",
+  "active": "a345809608408d16",
   "lastOpenFiles": [
     "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md",
     "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
