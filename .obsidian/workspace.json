@@ -66,9 +66,19 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "3265d7b75fd1563e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -203,7 +213,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90241a04dd4451c4",
+  "active": "3265d7b75fd1563e",
   "lastOpenFiles": [
     "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md",
     "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
