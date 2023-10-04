@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/_posts/2023-10-04-网站收藏.md",
+                "file": "docs/_posts/2023-10-04-文摘.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/_posts/2023-10-04-网站收藏.md",
+                "file": "docs/_posts/2023-10-04-文摘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/_posts/2023-10-04-网站收藏.md",
+                "file": "docs/_posts/2023-10-04-文摘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/_posts/2023-10-04-网站收藏.md"
+                "file": "docs/_posts/2023-10-04-文摘.md"
               }
             }
           },
@@ -217,8 +217,8 @@
   },
   "active": "a345809608408d16",
   "lastOpenFiles": [
-    "docs/_posts/2023-10-04-A detailed comparison of REST and gRPC.md",
     "docs/_posts/2023-10-04-网站收藏.md",
+    "docs/_posts/2023-10-04-A detailed comparison of REST and gRPC.md",
     "docs/_posts/2023-10-04-文摘.md",
     "docs/_posts/2023-10-04-HTTP 2.md",
     "docs/_posts/2023-09-29-关于开车.md",
