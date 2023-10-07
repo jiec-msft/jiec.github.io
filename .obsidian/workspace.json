@@ -23,9 +23,11 @@
             "id": "860e02727e718a22",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20231004170109.png"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20231004170109.png",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20231004170109.png",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20231004170109.png"
+                "file": "README.md"
               }
             }
           },
@@ -167,9 +169,9 @@
   },
   "active": "860e02727e718a22",
   "lastOpenFiles": [
+    "Pasted image 20231004170109.png",
     "2023-10-07.md",
     "Untitled.canvas",
-    "Pasted image 20231004170109.png",
     "README.md",
     "docs/_posts/2023-09-24-Eureka-clients.md",
     "docs/_posts/2023-10-07-假期综合症.md",
