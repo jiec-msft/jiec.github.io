@@ -37,50 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
+                "file": "docs/_posts/2023-10-04-文摘.md",
                 "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "3dd478f747f1f8af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "90241a04dd4451c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3265d7b75fd1563e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/_posts/2023-10-04-网站收藏.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/_posts/2023-10-04-网站收藏.md",
+                "file": "docs/_posts/2023-10-04-文摘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/_posts/2023-10-04-网站收藏.md",
+                "file": "docs/_posts/2023-10-04-文摘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/_posts/2023-10-04-网站收藏.md"
+                "file": "docs/_posts/2023-10-04-文摘.md"
               }
             }
           },
@@ -215,17 +179,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3265d7b75fd1563e",
+  "active": "58f34c9fc8b6258d",
   "lastOpenFiles": [
-    "docs/_posts/2023-10-04-文摘.md",
     "docs/_posts/2023-10-04-网站收藏.md",
+    "docs/_posts/2023-09-23-Purpose-of FilterChain.doFilter.md",
+    "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md",
+    "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
+    "Untitled.canvas",
+    "docs/_posts/2023-08-26-Put-cred-in-http-url.md",
+    "docs/_posts/2023-08-26-annoying-tailing-percent-sign-in-oh-my-zsh.md",
+    "docs/_posts/2023-08-21-Reading-goals.md",
+    "docs/_posts/2023-08-19-welcome-to-jekyll.md",
+    "docs/_posts/2023-08-19-Maven-dependency.md",
+    "docs/_posts/2023-10-04-文摘.md",
     "docs/_posts/2023-10-04-A detailed comparison of REST and gRPC.md",
     "docs/_posts/2023-10-04-HTTP 2.md",
     "docs/_posts/2023-09-29-关于开车.md",
     "docs/_posts/2023-09-27-眼药水.md",
     "docs/_posts/2023-09-24-Eureka-clients.md",
-    "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
-    "docs/_posts/2023-09-23-Purpose-of FilterChain.doFilter.md",
     "docs/about.md",
     "README.md",
     "Pasted image 20231004170109.png",
@@ -233,17 +204,9 @@
     "docs/_posts/2023-09-27-三叉神经-带状疱疹.md",
     "docs/_posts/2023-09-27-Spring Boot @Condition 注解，组合条件你知道吗.md",
     "docs/_posts/2023-09-27-Nginx-HTTP-499-status-code.md",
-    "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md",
     "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
     "docs/_posts/2023-09-23-Spring@bean-annotation-for-paramerized-method.md",
     "docs/_posts/2023-09-23-Spring-boot-and-spring-cloud-that-children-can-understand.md",
-    "docs/_posts/2023-09-23-Primary-annotation-in-spring-boot-application.md",
-    "docs/_posts/2023-09-22-Permits-keyword-in-java.md",
-    "docs/_posts/2023-09-22-Enum-in-java-can-be-null.md",
-    "docs/_posts/2023-09-21-D-is-short-for-define-in-jvm-option.md",
-    "docs/_posts/2023-09-11-Value-added-for-cx.md",
-    "docs/_posts/2023-09-11-Simple-description.md",
-    "docs/_posts/2023-09-11-HTTP-502-503-and-504.md",
-    "Untitled.canvas"
+    "docs/_posts/2023-09-23-Primary-annotation-in-spring-boot-application.md"
   ]
 }
