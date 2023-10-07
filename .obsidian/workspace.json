@@ -23,28 +23,14 @@
             "id": "860e02727e718a22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "docs/_posts/2023-09-24-Eureka-clients.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58f34c9fc8b6258d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/_posts/2023-10-07-假期综合症.md",
-                "mode": "source",
-                "source": true
+                "file": "Pasted image 20231004170109.png"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/_posts/2023-10-07-假期综合症.md",
+                "file": "Pasted image 20231004170109.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/_posts/2023-10-07-假期综合症.md",
+                "file": "Pasted image 20231004170109.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/_posts/2023-10-07-假期综合症.md"
+                "file": "Pasted image 20231004170109.png"
               }
             }
           },
@@ -179,18 +165,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58f34c9fc8b6258d",
+  "active": "860e02727e718a22",
   "lastOpenFiles": [
-    "docs/_posts/2023-10-07-国庆节前后气温.md",
-    "docs/_posts/2023-10-07-假期综合症.md",
-    "docs/_posts/2023-10-07-医院预约挂号.md",
+    "2023-10-07.md",
+    "Untitled.canvas",
+    "Pasted image 20231004170109.png",
+    "README.md",
     "docs/_posts/2023-09-24-Eureka-clients.md",
+    "docs/_posts/2023-10-07-假期综合症.md",
+    "docs/_posts/2023-10-07-国庆节前后气温.md",
+    "docs/_posts/2023-10-07-医院预约挂号.md",
     "docs/_posts/2023-10-04-网站收藏.md",
     "docs/_posts/2023-10-04-文摘.md",
     "docs/_posts/2023-09-23-Purpose-of FilterChain.doFilter.md",
     "docs/_posts/2023-09-24-Spring@ConditionalOnMissing.md",
     "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
-    "Untitled.canvas",
     "docs/_posts/2023-08-26-Put-cred-in-http-url.md",
     "docs/_posts/2023-08-26-annoying-tailing-percent-sign-in-oh-my-zsh.md",
     "docs/_posts/2023-08-21-Reading-goals.md",
@@ -201,13 +190,9 @@
     "docs/_posts/2023-09-29-关于开车.md",
     "docs/_posts/2023-09-27-眼药水.md",
     "docs/about.md",
-    "README.md",
-    "Pasted image 20231004170109.png",
     "docs/_posts/2023-09-27-SearchStrategy.CURRENT效果？.md",
     "docs/_posts/2023-09-27-三叉神经-带状疱疹.md",
     "docs/_posts/2023-09-27-Spring Boot @Condition 注解，组合条件你知道吗.md",
-    "docs/_posts/2023-09-27-Nginx-HTTP-499-status-code.md",
-    "docs/_posts/2023-09-24-Meaning-of-eureka-in-spring-cloud-eureka.md",
-    "docs/_posts/2023-09-23-Spring@bean-annotation-for-paramerized-method.md"
+    "docs/_posts/2023-09-27-Nginx-HTTP-499-status-code.md"
   ]
 }
