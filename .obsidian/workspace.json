@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/about.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "docs/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "docs/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "docs/about.md"
               }
             }
           },
@@ -169,10 +169,10 @@
   },
   "active": "860e02727e718a22",
   "lastOpenFiles": [
+    "README.md",
     "Pasted image 20231004170109.png",
     "2023-10-07.md",
     "Untitled.canvas",
-    "README.md",
     "docs/_posts/2023-09-24-Eureka-clients.md",
     "docs/_posts/2023-10-07-假期综合症.md",
     "docs/_posts/2023-10-07-国庆节前后气温.md",
