@@ -27,7 +27,7 @@
               "state": {
                 "file": "docs/_posts/2023-10-07-JAX-RS.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
