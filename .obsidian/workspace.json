@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "860e02727e718a22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/_posts/2023-09-27-三叉神经-带状疱疹.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "860e02727e718a22",
+  "active": "327df89bb263960e",
   "lastOpenFiles": [
     "docs/_posts/2023-10-08-企业级应用开发.md",
     "docs/_posts/2023-10-07-编程中什么是「Context(上下文)」.md",
