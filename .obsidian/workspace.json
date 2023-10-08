@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/_posts/2023-10-07-J2EE和Spring.md",
+                "file": "docs/_posts/2023-10-08-企业级应用开发.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/_posts/2023-10-07-J2EE和Spring.md",
+                "file": "docs/_posts/2023-10-08-企业级应用开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/_posts/2023-10-07-J2EE和Spring.md",
+                "file": "docs/_posts/2023-10-08-企业级应用开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/_posts/2023-10-07-J2EE和Spring.md"
+                "file": "docs/_posts/2023-10-08-企业级应用开发.md"
               }
             }
           },
@@ -169,11 +169,12 @@
   },
   "active": "860e02727e718a22",
   "lastOpenFiles": [
-    "docs/_posts/2023-10-07-Java EE.md",
+    "docs/_posts/2023-10-07-编程中什么是「Context(上下文)」.md",
+    "docs/_posts/2023-10-08-企业级应用开发.md",
     "docs/_posts/2023-10-07-J2EE和Spring.md",
+    "docs/_posts/2023-10-07-Java EE.md",
     "docs/_posts/2023-10-07-JAX-RS.md",
     "docs/_posts/2023-10-07-How to log request processing time in JAX-RS filter.md",
-    "docs/_posts/2023-10-07-编程中什么是「Context(上下文)」.md",
     "docs/_posts/2023-10-07-在 Web 业务开发中，单元测试真能起到作用吗？.md",
     "docs/_posts/2023-10-07-国庆节前后气温.md",
     "docs/_posts/2023-10-04-文摘.md",
@@ -196,7 +197,6 @@
     "docs/_posts/2023-08-19-welcome-to-jekyll.md",
     "docs/_posts/2023-08-19-Maven-dependency.md",
     "docs/_posts/2023-10-04-A detailed comparison of REST and gRPC.md",
-    "docs/_posts/2023-10-04-HTTP 2.md",
-    "docs/_posts/2023-09-29-关于开车.md"
+    "docs/_posts/2023-10-04-HTTP 2.md"
   ]
 }
