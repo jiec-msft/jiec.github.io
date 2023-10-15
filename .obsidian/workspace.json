@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ef46c1f1012f64cf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c003efec9cd9bb53",
+  "active": "ef46c1f1012f64cf",
   "lastOpenFiles": [
     "docs/_posts/2023-10-07-在 Web 业务开发中，单元测试真能起到作用吗？.md",
     "docs/_posts/2023-10-07-编程中什么是「Context(上下文)」.md",
