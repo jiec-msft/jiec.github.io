@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/_posts/2023-10-27-Go-office.md",
+                "file": "docs/_posts/2023-10-28-家务事.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/_posts/2023-10-27-Go-office.md",
+                "file": "docs/_posts/2023-10-28-家务事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/_posts/2023-10-27-Go-office.md",
+                "file": "docs/_posts/2023-10-28-家务事.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/_posts/2023-10-27-Go-office.md"
+                "file": "docs/_posts/2023-10-28-家务事.md"
               }
             }
           },
@@ -156,8 +156,9 @@
   },
   "active": "c003efec9cd9bb53",
   "lastOpenFiles": [
-    "docs/_posts/2023-10-08-企业级应用开发.md",
     "docs/_posts/2023-10-27-Go-office.md",
+    "docs/_posts/2023-10-28-家务事.md",
+    "docs/_posts/2023-10-08-企业级应用开发.md",
     "docs/_posts/2023-10-07-How to log request processing time in JAX-RS filter.md",
     "docs/_posts/2023-10-07-在 Web 业务开发中，单元测试真能起到作用吗？.md",
     "docs/_posts/2023-10-07-编程中什么是「Context(上下文)」.md",
@@ -183,7 +184,6 @@
     "docs/_posts/2023-08-26-annoying-tailing-percent-sign-in-oh-my-zsh.md",
     "docs/_posts/2023-08-21-Reading-goals.md",
     "docs/_posts/2023-08-19-welcome-to-jekyll.md",
-    "docs/_posts/2023-08-19-Maven-dependency.md",
-    "docs/_posts/2023-10-04-A detailed comparison of REST and gRPC.md"
+    "docs/_posts/2023-08-19-Maven-dependency.md"
   ]
 }
