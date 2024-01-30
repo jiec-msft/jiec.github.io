@@ -11,10 +11,11 @@
             "id": "c003efec9cd9bb53",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "docs/_posts/2023-09-27-眼药水.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/_posts/2023-09-27-眼药水.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/_posts/2023-09-27-眼药水.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/_posts/2023-09-27-眼药水.md"
+              }
             }
           },
           {
@@ -149,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c003efec9cd9bb53",
+  "active": "a345809608408d16",
   "lastOpenFiles": [
+    "docs/_posts/2023-09-27-三叉神经-带状疱疹.md",
     "docs/_posts/2023-09-27-眼药水.md",
     "docs/_posts/2023-10-28-家务事.md",
     "docs/_posts/2023-10-27-Go-office.md",
@@ -178,7 +184,6 @@
     "docs/_posts/2023-09-24-Spring@ConfigurationProperties.md",
     "docs/_posts/2023-08-26-Put-cred-in-http-url.md",
     "docs/_posts/2023-08-26-annoying-tailing-percent-sign-in-oh-my-zsh.md",
-    "docs/_posts/2023-08-21-Reading-goals.md",
-    "docs/_posts/2023-08-19-welcome-to-jekyll.md"
+    "docs/_posts/2023-08-21-Reading-goals.md"
   ]
 }
