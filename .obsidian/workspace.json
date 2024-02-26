@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "efdb4e118ea4c8a4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c003efec9cd9bb53",
+  "active": "efdb4e118ea4c8a4",
   "lastOpenFiles": [
     "docs/_posts/2024-02-19-linux namespace and cgroup.md",
     "docs/_posts/2024-02-20-dot-properties-file.md",
